@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  const apiRoot = 'https://stark-atoll-69760.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://stark-atoll-69760.herokuapp.com/v1/task/trello/';
-  const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-  const $tasksContainer = $('[data-tasks-container]');
+  var apiRoot = 'https://stark-atoll-69760.herokuapp.com/v1/task/';
+  var trelloApiRoot = 'https://stark-atoll-69760.herokuapp.com/v1/task/trello/';
+  var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
+  var $tasksContainer = $('[data-tasks-container]');
 
   var availableBoards = {};
   var availableTasks = {};
